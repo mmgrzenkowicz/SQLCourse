@@ -11,3 +11,4 @@ SELECT first_name, last_name FROM actor;
 
 SELECT first_name, last_name FROM sakila.actor ORDER BY last_name; # Posortowanie po nazwisku.
 
+SELECT first_name AS 'Imie', last_name AS 'Nazwisko' FROM sakila.actor ORDER By Nazwisko; # AS - Alias.
