@@ -1,0 +1,7 @@
+CREATE SCHEMA test; # 1. Sposób.
+CREATE DATABASE test_1; # 2. Sposób.
+
+DROP SCHEMA test;
+DROP DATABASE test_1;
+
+CREATE SCHEMA test_2;
